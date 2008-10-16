@@ -1,0 +1,13 @@
+citHeader("To cite X:Map and XMapBridge in publications, please use:")
+                                                                             
+citEntry(entry="article",
+         textVersion="Yates T, Okoniewski MJ, Miller CJ. X:Map: annotation and visualization of genome structure for Affymetrix exon array analysis. Nucleic Acids Res. 2008 Jan;36(Database issue):D780-6. Epub 2007 Oct 11.",                                                   
+         title = "X:Map: annotation and visualization of genome structure for Affymetrix exon array analysis.",
+         author = personList(as.person("Tim Yates"),
+                             as.person("Michal J Okoniewski"),
+                             as.person("Crispin J Miller")),
+         journal = "Nucleic Acids Res",
+         year    = "2008",
+         chapter = "Database Issue",
+         pages   = "D780-6"
+         )

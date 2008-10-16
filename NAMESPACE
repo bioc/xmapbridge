@@ -1,0 +1,22 @@
+import("methods")
+
+export(
+  xmap.debug,
+  xmap.plot,
+  xmap.points,
+  xmap.col,
+  xmap.project.new,
+  xmap.project.load,
+  xmap.project.list,
+  xmap.project.save,
+  xmap.project.delete,
+  xmap.graph.new,
+  xmap.graph.load,
+  xmap.graph.list,
+  xmap.graph.save,
+  xmap.graph.delete,
+  xmap.plot.new,
+  xmap.plot.load,
+  xmap.plot.list,
+  xmap.plot.save,
+  xmap.plot.delete )
