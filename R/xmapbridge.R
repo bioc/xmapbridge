@@ -172,6 +172,9 @@ setMethod( "xmap.graph.minx", "Plot",  function( object, ... ) { object@minx } )
   if( any( sapply( x, is.nan ) ) ) {
     stop( "x cannot contain NaN" )
   }
+  if( !all( sapply( x, is.finite ) ) ) {
+    stop( "x cannot contain infinite numbers" )
+  }
   if( missing( y ) ) {
     stop( "You need to specify values for y" )
   }
@@ -183,6 +186,9 @@ setMethod( "xmap.graph.minx", "Plot",  function( object, ... ) { object@minx } )
   }
   if( any( sapply( y, is.nan ) ) ) {
     stop( "y cannot contain NaN" )
+  }
+  if( !all( sapply( y, is.finite ) ) ) {
+    stop( "y cannot contain infinite numbers" )
   }
   if( length( x ) != length( y ) ) {
     stop( "'x' and 'y' lengths differ" )
