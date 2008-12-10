@@ -7,7 +7,7 @@ Author: Tim Yates <tyates@picr.man.ac.uk> and Crispin J Miller <cmiller@picr.man
 Maintainer: Tim Yates <tyates@picr.man.ac.uk>
 Depends: R (>= 2.0), methods
 Description: xmapBridge can plot graphs in the X:Map genome browser. This package exports plotting files in a suitable format.
-License: GPL-3 
+License: LGPL-v3
 URL: http://xmap.picr.man.ac.uk, http://www.bioconductor.org 
 biocViews: Annotation, ReportWriting, Visualization
 Collate: zzz.R xmapbridge.R

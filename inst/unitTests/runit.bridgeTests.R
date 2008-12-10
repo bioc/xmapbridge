@@ -9,7 +9,7 @@
 #
 # Author:  Tim Yates
 # Date:    2008/12/04
-# Licence: GPL-3
+# Licence: LGPL-v3
 #
 # The is an RUnit implementation of my tests, as it should be an easy win to use
 # their functions rather than the ones I wrote in the original tests

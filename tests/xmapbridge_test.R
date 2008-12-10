@@ -9,7 +9,7 @@
 #
 # Author:  Tim Yates and Crispin J Miller
 # Date:    2008/08/13
-# Licence: GPL-3
+# Licence: LGPL-v3
 #
 # This file tests all of the exported methods from the library to make sure
 # they work as expected (generate the correct files), fail cleanly as required,
