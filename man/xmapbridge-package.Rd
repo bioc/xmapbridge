@@ -14,7 +14,7 @@
     Type: \tab Package\cr
     Version: \tab 1.0\cr
     Date: \tab 2008-08-11\cr
-    License: \tab GPL-3\cr
+    License: \tab LGPL-v3\cr
   }
 }
 \author{
