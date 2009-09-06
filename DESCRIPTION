@@ -1,13 +1,13 @@
 Package: xmapbridge
 Type: Package
 Title: Export plotting files to the xmapBridge for visualisation in X:Map
-Version: 1.3.0
+Version: 1.3.1
 Date: 2008-12-09
 Author: Tim Yates <tyates@picr.man.ac.uk> and Crispin J Miller <cmiller@picr.man.ac.uk>
 Maintainer: Tim Yates <tyates@picr.man.ac.uk>
 Depends: R (>= 2.0), methods
 Description: xmapBridge can plot graphs in the X:Map genome browser. This package exports plotting files in a suitable format.
-License: LGPL-v3
+License: LGPL-3
 URL: http://xmap.picr.man.ac.uk, http://www.bioconductor.org 
 biocViews: Annotation, ReportWriting, Visualization
 Collate: zzz.R xmapbridge.R
