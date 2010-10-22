@@ -95,7 +95,7 @@ setMethod( "!=", c( "Project", "Project" ), function( e1, e2 ) {   e1@project !=
 setMethod( "!=", c( "Graph", "Graph" ),     function( e1, e2 ) { ( e1@project != e2@project ) || ( e1@graph != e2@graph ) || ( e1@minx != e2@minx ) } )
 setMethod( "!=", c( "Plot", "Plot" ),       function( e1, e2 ) { ( e1@project != e2@project ) || ( e1@graph != e2@graph ) || ( e1@minx != e2@minx ) || ( e1@plot != e2@plot ) } )
 
-setGeneric( "show", function( object ) standardGeneric( "show" ) )
+if( is.null( getGeneric( "show" ) ) ) setGeneric( "show", function( object ) standardGeneric( "show" ) )
 setMethod( "show", "Project", function( object ) { cat( xmap.debug( object, newlines=TRUE ) ) } )
 setMethod( "show", "Graph",   function( object ) { cat( xmap.debug( object, newlines=TRUE ) ) } )
 setMethod( "show", "Plot",    function( object ) { cat( xmap.debug( object, newlines=TRUE ) ) } )
