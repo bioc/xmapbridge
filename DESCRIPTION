@@ -1,7 +1,7 @@
 Package: xmapbridge
 Type: Package
 Title: Export plotting files to the xmapBridge for visualisation in X:Map
-Version: 1.17.0
+Version: 1.18.0
 Date: 2008-12-09
 Author: Tim Yates <tyates@picr.man.ac.uk> and Crispin J Miller <cmiller@picr.man.ac.uk>
 Maintainer: Tim Yates <tyates@picr.man.ac.uk>
